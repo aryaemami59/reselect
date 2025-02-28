@@ -38,4 +38,4 @@ jobs:
         if: ${{ success() && steps.size.outcome == 'failure' }}
         run: |
           yarn run build
-          yarn size
+          yarn run size
